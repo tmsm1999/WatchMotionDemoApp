@@ -8,15 +8,15 @@
 import Foundation
 import CoreMotion
 
+public struct UserAcceleration {
+    
+    let x: Double
+    let y: Double
+    let z: Double
+}
+
 class UserAccelerationData {
-    
-    struct UserAcceleration {
-        
-        let x: Double
-        let y: Double
-        let z: Double
-    }
-    
+
     var collectedUserAccelerationData = [(TimeInterval, UserAcceleration)]()
     
     public func appendData(timestamp: TimeInterval, newEntry: CMAcceleration) {

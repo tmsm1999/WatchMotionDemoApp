@@ -8,14 +8,14 @@
 import Foundation
 import CoreMotion
 
-class GravityData {
+public struct Gravity {
     
-    struct Gravity {
-        
-        let x: Double
-        let y: Double
-        let z: Double
-    }
+    let x: Double
+    let y: Double
+    let z: Double
+}
+
+class GravityData {
     
     var collectedAccelerometerData = [(TimeInterval, Gravity)]()
     

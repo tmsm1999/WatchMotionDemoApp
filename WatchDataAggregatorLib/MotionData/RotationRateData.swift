@@ -8,14 +8,14 @@
 import Foundation
 import CoreMotion
 
-class RotationRateData {
+public struct RotationRate {
     
-    struct RotationRate {
-        
-        let x: Double
-        let y: Double
-        let z: Double
-    }
+    let x: Double
+    let y: Double
+    let z: Double
+}
+
+class RotationRateData {
     
     var collectedRotationRateData = [(TimeInterval, RotationRate)]()
     

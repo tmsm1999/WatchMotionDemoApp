@@ -8,27 +8,27 @@
 import Foundation
 import CoreMotion
 
+public struct Attitude {
+    
+    let pitch: Double
+    let roll: Double
+    let yaw: Double
+}
+
 class AttitudeData {
     
-    struct Attitude {
-        
-        let pitch: Double
-        let roll: Double
-        let yaw: Double
-    }
-    
-    var collectedAttitude = [(TimeInterval, Attitude)]()
+    var collectedAttitudeData = [(TimeInterval, Attitude)]()
     
     public func appendData(timestamp: TimeInterval, newEntry: CMAttitude) {
         
         let newGravityEntry = Attitude(pitch: newEntry.pitch, roll: newEntry.roll, yaw: newEntry.yaw)
-        collectedAttitude.append((timestamp, newGravityEntry))
+        collectedAttitudeData.append((timestamp, newGravityEntry))
     }
     
     func getLastReading() -> Attitude? {
         
-        if collectedAttitude.count > 0 {
-            return collectedAttitude[collectedAttitude.count - 1].1
+        if collectedAttitudeData.count > 0 {
+            return collectedAttitudeData[collectedAttitudeData.count - 1].1
         }
         
         return nil

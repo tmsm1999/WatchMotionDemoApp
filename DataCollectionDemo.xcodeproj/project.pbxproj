@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0340AB267BFF2C0042446B /* GravityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0340AA267BFF2C0042446B /* GravityData.swift */; };
+		CF0340B1267BFF7F0042446B /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0340B0267BFF7F0042446B /* Sensor.swift */; };
+		CF0340B3267BFF9D0042446B /* WatchDataAggregator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0340B2267BFF9D0042446B /* WatchDataAggregator.swift */; };
 		CF3AEEAA267BEDE6005D52A2 /* DataCollectionDemo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CF3AEEA9267BEDE6005D52A2 /* DataCollectionDemo WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CF3AEEAF267BEDE7005D52A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3AEEAE267BEDE7005D52A2 /* Assets.xcassets */; };
 		CF3AEEB6267BEDE7005D52A2 /* DataCollectionDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF3AEEB5267BEDE7005D52A2 /* DataCollectionDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -17,6 +20,11 @@
 		CF3AEEC3267BEDE7005D52A2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3AEEC2267BEDE7005D52A2 /* ComplicationController.swift */; };
 		CF3AEEC5267BEDE8005D52A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3AEEC4267BEDE8005D52A2 /* Assets.xcassets */; };
 		CF3AEEC8267BEDE8005D52A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3AEEC7267BEDE8005D52A2 /* Preview Assets.xcassets */; };
+		CFD46606267D160000797D79 /* UserAccelerationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD46605267D160000797D79 /* UserAccelerationData.swift */; };
+		CFD46609267D180500797D79 /* AttitudeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD46608267D180500797D79 /* AttitudeData.swift */; };
+		CFD4660B267D1A1700797D79 /* RotationRateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD4660A267D1A1700797D79 /* RotationRateData.swift */; };
+		CFD4660D267D1B7E00797D79 /* MagneticFieldData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD4660C267D1B7E00797D79 /* MagneticFieldData.swift */; };
+		CFD4660F267D1DD800797D79 /* HeadingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD4660E267D1DD800797D79 /* HeadingData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +70,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF0340AA267BFF2C0042446B /* GravityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityData.swift; sourceTree = "<group>"; };
+		CF0340B0267BFF7F0042446B /* Sensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
+		CF0340B2267BFF9D0042446B /* WatchDataAggregator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDataAggregator.swift; sourceTree = "<group>"; };
 		CF3AEEA5267BEDE6005D52A2 /* DataCollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataCollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3AEEA9267BEDE6005D52A2 /* DataCollectionDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DataCollectionDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3AEEAE267BEDE7005D52A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +87,11 @@
 		CF3AEEC7267BEDE8005D52A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF3AEEC9267BEDE8005D52A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF3AEECA267BEDE8005D52A2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CFD46605267D160000797D79 /* UserAccelerationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccelerationData.swift; sourceTree = "<group>"; };
+		CFD46608267D180500797D79 /* AttitudeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttitudeData.swift; sourceTree = "<group>"; };
+		CFD4660A267D1A1700797D79 /* RotationRateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationRateData.swift; sourceTree = "<group>"; };
+		CFD4660C267D1B7E00797D79 /* MagneticFieldData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticFieldData.swift; sourceTree = "<group>"; };
+		CFD4660E267D1DD800797D79 /* HeadingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +105,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF0340A9267BFF010042446B /* WatchDataAggregatorLib */ = {
+			isa = PBXGroup;
+			children = (
+				CFD46607267D174500797D79 /* MotionData */,
+				CF0340B0267BFF7F0042446B /* Sensor.swift */,
+				CF0340B2267BFF9D0042446B /* WatchDataAggregator.swift */,
+			);
+			path = WatchDataAggregatorLib;
+			sourceTree = "<group>";
+		};
 		CF3AEE9E267BEDE6005D52A2 = {
 			isa = PBXGroup;
 			children = (
+				CF0340A9267BFF010042446B /* WatchDataAggregatorLib */,
 				CF3AEEAD267BEDE6005D52A2 /* DataCollectionDemo WatchKit App */,
 				CF3AEEB9267BEDE7005D52A2 /* DataCollectionDemo WatchKit Extension */,
 				CF3AEEA6267BEDE6005D52A2 /* Products */,
@@ -139,6 +166,19 @@
 				CF3AEEC7267BEDE8005D52A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFD46607267D174500797D79 /* MotionData */ = {
+			isa = PBXGroup;
+			children = (
+				CF0340AA267BFF2C0042446B /* GravityData.swift */,
+				CFD46605267D160000797D79 /* UserAccelerationData.swift */,
+				CFD46608267D180500797D79 /* AttitudeData.swift */,
+				CFD4660A267D1A1700797D79 /* RotationRateData.swift */,
+				CFD4660C267D1B7E00797D79 /* MagneticFieldData.swift */,
+				CFD4660E267D1DD800797D79 /* HeadingData.swift */,
+			);
+			path = MotionData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +308,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF3AEEBF267BEDE7005D52A2 /* NotificationController.swift in Sources */,
+				CFD4660F267D1DD800797D79 /* HeadingData.swift in Sources */,
 				CF3AEEBD267BEDE7005D52A2 /* ContentView.swift in Sources */,
+				CF0340B3267BFF9D0042446B /* WatchDataAggregator.swift in Sources */,
 				CF3AEEC3267BEDE7005D52A2 /* ComplicationController.swift in Sources */,
+				CFD46609267D180500797D79 /* AttitudeData.swift in Sources */,
+				CFD46606267D160000797D79 /* UserAccelerationData.swift in Sources */,
+				CF0340B1267BFF7F0042446B /* Sensor.swift in Sources */,
+				CF0340AB267BFF2C0042446B /* GravityData.swift in Sources */,
+				CFD4660B267D1A1700797D79 /* RotationRateData.swift in Sources */,
+				CFD4660D267D1B7E00797D79 /* MagneticFieldData.swift in Sources */,
 				CF3AEEBB267BEDE7005D52A2 /* DataCollectionDemoApp.swift in Sources */,
 				CF3AEEC1267BEDE7005D52A2 /* NotificationView.swift in Sources */,
 			);
@@ -419,6 +467,10 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fc.up.dcc.tomasmamede.DataCollectionDemo.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -442,6 +494,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fc.up.dcc.tomasmamede.DataCollectionDemo.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
